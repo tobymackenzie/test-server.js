@@ -3,6 +3,8 @@ Test-server.js
 
 A simple js test server that serves a directory and rewrites any npm module paths to work in the browser.  Not meant to be used in production.  Somewhat new, so the interfaces may still be in flux.
 
+Note: The module path rewrites don't currently support bare imports that don't specify the path to the `.js` file.
+
 Usage
 -----
 
@@ -28,4 +30,5 @@ I'd like to:
 - support more error types
 - allow returning integers from imported index files to cause a given error type
 - support redirects
+- support bare imports that have paths specified by package.json
 - actual tests
