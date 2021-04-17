@@ -1,0 +1,12 @@
+{
+	"name": "@tobymackenzie/test-server",
+	"bin": {
+		"test-server": "bin/srv"
+	},
+	"dependencies": {
+		"@tobymackenzie/tmclasses.js": "github:tobymackenzie/tmclasses.js#semver:^v0.2",
+		"yargs-parser": "^20.2.7"
+	},
+	"main": "src/main.js",
+	"type": "module"
+}
