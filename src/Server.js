@@ -111,6 +111,10 @@ var Server = tmclasses.create({
 			switch(request.method){
 				case 'POST':
 				case 'UPDATE':
+					request.on('data', (data)=> {
+						//-! this method only allows for string type submissions.  Will have to do some buffer stuff to support multipart forms
+						message.data += data;
+					});
 					request.on('end', handleRequestEnd);
 				break;
 				default:

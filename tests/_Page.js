@@ -14,7 +14,9 @@ export default tmclasses.create({
 				<nav>
 					<a href="/false">False</a>
 					<a href="/function">Function</a>
+					<a href="/get">GET Form</a>
 					<a href="/html">HTML</a>
+					<a href="/post">POST Form</a>
 					<a href="/string">String</a>
 				</nav>
 			</header>
