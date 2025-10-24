@@ -7,6 +7,12 @@
 		"@tobymackenzie/tmclasses.js": "github:tobymackenzie/tmclasses.js#semver:^v0.2",
 		"yargs-parser": "^20.2.7"
 	},
+	"files": [
+		"bin/srv"
+		"LICENSE.md",
+		"README.md",
+		"src/"
+	],
 	"main": "src/main.js",
 	"type": "module"
 }
